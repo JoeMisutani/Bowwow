@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-<body>
-    <h1>Bowwow</h1>
-    <h2>
-        <input type="text">
-        <input type="passward">
-    </h2>
-</body>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Thymeleaf</title>
+  </head>
+  <body>
+    <span th:text="${hello}">この部分が動的に置き換えられます</span>
+  </body>
 </html>
